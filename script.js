@@ -29,7 +29,7 @@ contactLink.addEventListener('click', (event) => {
     showPage(event, 4);
 });
 
-// iterate through each page and hide them
+// iterate through each page and hide
 function hidePages () {
     pages.forEach(page => {
         page.classList.remove('show');    // removes the show class from each page element
@@ -37,8 +37,7 @@ function hidePages () {
     });
 }
 
-// functions to display only the page for the clicked link
-// these could be combined into one function taking a page parameter to determine which to show
+// display only the page for the clicked link
 function showPage (event, page) {
     hidePages();
 
